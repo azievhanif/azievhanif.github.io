@@ -13,13 +13,13 @@ function Education() {
       image: require('../images/education/smanda.png'),
       details: {
         courses: [
-          "Advanced Mathematics",
-          "Physics",
-          "Chemistry",
-          "Biology"
+          "Advanced Mathematics.",
+          "Physics.",
+          "Chemistry.",
+          "Biology."
         ],
         activities: [
-          "Futsal"
+          "Futsal."
         ]
       }
     },
@@ -31,11 +31,11 @@ function Education() {
       image: require('../images/education/unesa.png'),
       details: {
         courses: [
-          "IT Service Management ",
-          "IT Risk Management",
-          "IS Project Management",
-          "IT Audit",
-          "Web Development"
+          "IT Service Management.",
+          "IT Risk Management.",
+          "IS Project Management.",
+          "IT Audit.",
+          "Web Development."
         ],
         activities: [
           "Islamic Spiritual Activity Unit.",
