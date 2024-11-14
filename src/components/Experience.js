@@ -13,21 +13,21 @@ function Experience() {
       image: require('../images/experiences/aacorp.png'),
       details: {
         responsibilities: [
-          "Developed and executed test cases for mobile and web applications",
-          "Performed functional and regression testing",
-          "Documented and tracked software bugs using issue tracking systems",
-          "Collaborated with developers to resolve identified issues"
+          "Developed and executed test cases for mobile and web applications.",
+          "Performed functional and regression testing.",
+          "Documented and tracked software bugs using issue tracking systems.",
+          "Collaborated with developers to resolve identified issues."
         ],
         technologies: [
-          "Selenium",
-          "Postman",
-          "JIRA",
-          "TestRail"
+          "Selenium.",
+          "Postman.",
+          "JIRA.",
+          "TestRail."
         ],
         achievements: [
-          "Reduced bug detection time by 30%",
-          "Improved test coverage by implementing automated testing",
-          "Successfully delivered 5 major releases with minimal post-release issues"
+          "Reduced bug detection time by 30%.",
+          "Improved test coverage by implementing automated testing.",
+          "Successfully delivered 5 major releases with minimal post-release issues."
         ]
       }
     },
@@ -39,21 +39,21 @@ function Experience() {
       image: require('../images/experiences/titian.png'),
       details: {
         responsibilities: [
-          "Managed and maintained IT infrastructure",
-          "Provided technical support to employees",
-          "Implemented security measures and backup systems",
-          "Monitored system performance and network stability"
+          "Managed and maintained IT infrastructure.",
+          "Provided technical support to employees.",
+          "Implemented security measures and backup systems.",
+          "Monitored system performance and network stability."
         ],
         technologies: [
-          "Windows Server",
-          "Active Directory",
-          "Network Management Tools",
-          "Help Desk Systems"
+          "Windows Server.",
+          "Active Directory.",
+          "Network Management Tools.",
+          "Help Desk Systems."
         ],
         achievements: [
-          "Improved system uptime to 99.9%",
-          "Implemented new backup solution reducing recovery time by 50%",
-          "Successfully managed IT support for 100+ employees"
+          "Improved system uptime to 99.9%.",
+          "Implemented new backup solution reducing recovery time by 50%.",
+          "Successfully managed IT support for 100+ employees."
         ]
       }
     },
@@ -69,15 +69,15 @@ function Experience() {
           "Learning modern web development technologies",
         ],
         technologies: [
-          "React.js",
-          "Node.js",
-          "Express.js",
-          "MongoDB",
-          "Git"
+          "React.js.",
+          "Node.js.",
+          "Express.js.",
+          "MongoDB.",
+          "Git."
         ],
         achievements: [
-          "Completed multiple full-stack projects",
-          "Contributed to team development initiatives",
+          "Completed multiple full-stack projects.",
+          "Contributed to team development initiatives.",
         ]
       }
     }
