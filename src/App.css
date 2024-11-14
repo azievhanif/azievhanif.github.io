@@ -256,7 +256,39 @@ section {
   .custom-card .card-body {
     padding: 1rem;
   }
+
+  .mobile-modal .modal-dialog {
+    margin: 0.5rem;
+    max-width: calc(100% - 1rem);
   }
+
+  .mobile-modal .modal-body {
+    padding: 1rem;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+  }
+
+  .mobile-modal .modal-header {
+    padding: 0.75rem 1rem;
+  }
+
+  .mobile-modal .modal-footer {
+    padding: 0.75rem 1rem;
+  }
+
+  .mobile-modal .modal-title {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .mobile-modal ul {
+    margin-bottom: 0.5rem;
+  }
+
+  .mobile-modal li {
+    margin-bottom: 0.5rem;
+  }
+}
 
 @media (max-width: 576px) {
   .container {
@@ -271,5 +303,13 @@ section {
 
   .profile-section {
     padding-top: 80px;
+  }
+
+  .card-image-wrapper {
+    height: 150px;
+    padding: 0.75rem;
+  }
+  .custom-card .card-body {
+    padding: 1rem;
   }
 }
