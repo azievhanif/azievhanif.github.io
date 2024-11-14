@@ -83,6 +83,7 @@ function Experience() {
     }
   ];
 
+  
   const handleClose = () => setSelectedExp(null);
   const handleShow = (exp) => setSelectedExp(exp);
 
@@ -96,9 +97,9 @@ function Experience() {
           Professional experiences from the projects and roles I've taken on during my time as a student.
         </p>
         
-        <Row>
+        <Row className="g-4"> {/* Added gap between cards */}
           {experiences.map((exp, index) => (
-            <Col lg={4} md={6} className="mb-4" key={index}>
+            <Col lg={4} md={6} sm={12} className="mb-4" key={index}>
               <Card 
                 className="custom-card h-100"
                 onClick={() => handleShow(exp)}
@@ -114,8 +115,8 @@ function Experience() {
                 </div>
                 <Card.Body>
                   <p className="text-secondary mb-2">{exp.period}</p>
-                  <h3 className="text-warning mb-2">{exp.title}</h3>
-                  <h5 className="mb-3">{exp.company}</h5>
+                  <h3 className="text-warning mb-2 fs-4">{exp.title}</h3>
+                  <h5 className="mb-3 fs-6">{exp.company}</h5>
                   <p className="text-secondary">{exp.description}</p>
                 </Card.Body>
               </Card>
@@ -130,49 +131,50 @@ function Experience() {
         size="lg"
         centered
         contentClassName="bg-dark"
-        className="text-white"
+        className="text-white mobile-modal"
       >
         {selectedExp && (
           <>
             <Modal.Header closeButton className="border-secondary">
-              <Modal.Title className="text-warning">
+              <Modal.Title className="text-warning fs-5">
                 {selectedExp.title} at {selectedExp.company}
               </Modal.Title>
             </Modal.Header>
             <Modal.Body className="bg-dark text-white">
-              <div className="text-center mb-4 p-4 rounded" style={{ backgroundColor: '#0D1117' }}>
+              <div className="text-center mb-4 p-3 rounded" style={{ backgroundColor: '#0D1117' }}>
                 <img 
                   src={selectedExp.image} 
                   alt={selectedExp.company}
-                  style={{ maxHeight: '200px', objectFit: 'contain' }}
+                  className="img-fluid"
+                  style={{ maxHeight: '150px', objectFit: 'contain' }}
                 />
               </div>
-              <p className="text-secondary">{selectedExp.period}</p>
-              <p>{selectedExp.description}</p>
+              <p className="text-secondary fs-6">{selectedExp.period}</p>
+              <p className="fs-6">{selectedExp.description}</p>
               
-              <h5 className="mt-4 mb-3 text-warning">Key Responsibilities</h5>
-              <ul className="text-white">
+              <h5 className="mt-4 mb-3 text-warning fs-6">Key Responsibilities</h5>
+              <ul className="text-white fs-6 ps-3">
                 {selectedExp.details.responsibilities.map((responsibility, index) => (
-                  <li key={index}>{responsibility}</li>
+                  <li key={index} className="mb-2">{responsibility}</li>
                 ))}
               </ul>
 
-              <h5 className="mt-4 mb-3 text-warning">Technologies Used</h5>
-              <ul className="text-white">
+              <h5 className="mt-4 mb-3 text-warning fs-6">Technologies Used</h5>
+              <ul className="text-white fs-6 ps-3">
                 {selectedExp.details.technologies.map((tech, index) => (
-                  <li key={index}>{tech}</li>
+                  <li key={index} className="mb-2">{tech}</li>
                 ))}
               </ul>
 
-              <h5 className="mt-4 mb-3 text-warning">Key Achievements</h5>
-              <ul className="text-white">
+              <h5 className="mt-4 mb-3 text-warning fs-6">Key Achievements</h5>
+              <ul className="text-white fs-6 ps-3">
                 {selectedExp.details.achievements.map((achievement, index) => (
-                  <li key={index}>{achievement}</li>
+                  <li key={index} className="mb-2">{achievement}</li>
                 ))}
               </ul>
             </Modal.Body>
             <Modal.Footer className="border-secondary">
-              <Button variant="warning" onClick={handleClose}>
+              <Button variant="warning" onClick={handleClose} className="w-100">
                 Close
               </Button>
             </Modal.Footer>
