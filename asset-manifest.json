@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9dd18c50.css",
-    "main.js": "/static/js/main.f83f27d5.js",
+    "main.js": "/static/js/main.be2c7b7b.js",
     "static/media/unesa.png": "/static/media/unesa.3923c260ccaf3106c961.png",
     "static/media/smanda.png": "/static/media/smanda.50c386eddc62c62bbf35.png",
     "static/media/profile.jpeg": "/static/media/profile.9646fc5b2340d0f66561.jpeg",
@@ -11,10 +11,10 @@
     "static/media/linkedin.png": "/static/media/linkedin.1427783948e997ff861f.png",
     "index.html": "/index.html",
     "main.9dd18c50.css.map": "/static/css/main.9dd18c50.css.map",
-    "main.f83f27d5.js.map": "/static/js/main.f83f27d5.js.map"
+    "main.be2c7b7b.js.map": "/static/js/main.be2c7b7b.js.map"
   },
   "entrypoints": [
     "static/css/main.9dd18c50.css",
-    "static/js/main.f83f27d5.js"
+    "static/js/main.be2c7b7b.js"
   ]
 }
