@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Card, Modal, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Modal} from 'react-bootstrap';
 
 function Education() {
   const [selectedEdu, setSelectedEdu] = useState(null);
@@ -126,11 +126,6 @@ function Education() {
                 ))}
               </ul>
             </Modal.Body>
-            <Modal.Footer className="border-secondary">
-              <Button variant="warning" onClick={handleClose} className="w-100">
-                Close
-              </Button>
-            </Modal.Footer>
           </>
         )}
       </Modal>

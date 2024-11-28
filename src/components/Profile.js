@@ -17,7 +17,7 @@ function Profile() {
               I'm Aziev Hanif
             </h1>
             <p className="text-secondary mb-4">
-              an Information Systems student at Universitas Negeri Surabaya (State University of Surabaya) 
+              an Information Systems student at Universitas Negeri Surabaya
               with a deep interest in IT management and governance.
             </p>
             <Button 

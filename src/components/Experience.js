@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Card, Modal, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Modal} from 'react-bootstrap';
 
 function Experience() {
   const [selectedExp, setSelectedExp] = useState(null);
@@ -97,11 +97,11 @@ function Experience() {
           Professional experiences from the projects and roles I've taken on during my time as a student.
         </p>
         
-        <Row className="g-4"> {/* Added gap between cards */}
+        <Row className="g-4">
           {experiences.map((exp, index) => (
             <Col lg={4} md={6} sm={12} className="mb-4" key={index}>
               <Card 
-                className="custom-card h-100"
+                className="custom-card h-200"
                 onClick={() => handleShow(exp)}
                 style={{ cursor: 'pointer' }}
               >
@@ -173,11 +173,6 @@ function Experience() {
                 ))}
               </ul>
             </Modal.Body>
-            <Modal.Footer className="border-secondary">
-              <Button variant="warning" onClick={handleClose} className="w-100">
-                Close
-              </Button>
-            </Modal.Footer>
           </>
         )}
       </Modal>
