@@ -37,11 +37,11 @@ body {
   transition: transform 0.3s ease;
 }
 
-html {
+.html {
   scroll-behavior: smooth;
 }
 
-section {
+.section {
   scroll-margin-top: 80px;
 }
 
@@ -75,7 +75,6 @@ section {
   align-items: center;
   padding: 2rem;
   height: 100%;
-  background-color: #0D1117;
   border-radius: 1.5rem;
   margin: 2rem 0;
 }
@@ -256,6 +255,7 @@ section {
   .custom-card .card-body {
     padding: 1rem;
   }
+
 
   .mobile-modal .modal-dialog {
     margin: 0.5rem;
