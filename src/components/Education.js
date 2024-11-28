@@ -76,7 +76,7 @@ function Education() {
                 </div>
                 <Card.Body>
                   <p className="text-secondary mb-2">{edu.period}</p>
-                  <h3 className="text-warning mb-2 fs-4">{edu.school}</h3>
+                  <h3 className="text-warning mb-2 fs-5">{edu.school}</h3>
                   <h5 className="mb-3 fs-6">{edu.degree}</h5>
                   <p className="text-secondary">{edu.description}</p>
                 </Card.Body>

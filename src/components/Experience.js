@@ -115,7 +115,7 @@ function Experience() {
                 </div>
                 <Card.Body>
                   <p className="text-secondary mb-2">{exp.period}</p>
-                  <h3 className="text-warning mb-2 fs-4">{exp.title}</h3>
+                  <h3 className="text-warning mb-2 fs-5">{exp.title}</h3>
                   <h5 className="mb-3 fs-6">{exp.company}</h5>
                   <p className="text-secondary">{exp.description}</p>
                 </Card.Body>
