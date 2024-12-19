@@ -58,7 +58,7 @@ function Experience() {
       }
     },
     {
-      period: "September 2024 - Present",
+      period: "September 2024 - December 2024",
       title: "Full Stack Mentee",
       company: "Celerates",
       description: "Engaged as a mentee in the Celerates Acceleration Mastery Program (CAMP): Full Stack, focusing on both front-end and back-end development.",
@@ -72,7 +72,7 @@ function Experience() {
           "React.js",
           "Node.js",
           "Express.js",
-          "MongoDB",
+          "PostgreSQL",
           "Git"
         ],
         achievements: [
