@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Profile from './components/Profile';
+import Skills from './components/Skills';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import SocialMedia from './components/SocialMedia';
@@ -15,7 +16,8 @@ function App() {
         <Navigation />
         <main>
           <Profile />
-          <Education/>
+          <Skills />
+          <Education />
           <Experience />
           <SocialMedia/>
         </main>

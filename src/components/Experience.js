@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Modal} from 'react-bootstrap';
+import { ChevronRight } from 'lucide-react';
 
 function Experience() {
   const [selectedExp, setSelectedExp] = useState(null);
@@ -118,6 +119,10 @@ function Experience() {
                   <h3 className="text-warning mb-2 fs-5">{exp.title}</h3>
                   <h5 className="mb-3 fs-6">{exp.company}</h5>
                   <p className="text-secondary">{exp.description}</p>
+                  <div className="d-flex align-items-center text-warning mt-3" style={{ fontSize: '0.9rem' }}>
+                    <span>View details</span>
+                    <ChevronRight size={16} style={{ marginLeft: '4px' }} />
+                  </div>
                 </Card.Body>
               </Card>
             </Col>
