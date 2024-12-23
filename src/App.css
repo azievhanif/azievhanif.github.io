@@ -415,6 +415,10 @@ body {
     min-height: 380px;
     margin-top: 1rem;
   }
+
+  .image-stack-item {
+    position: relative;
+  }
 }
 
 @media (max-width: 768px) {
@@ -472,6 +476,7 @@ body {
   }
 
   .image-stack-item {
+    position: relative;
     height: 220px;
   }
 
