@@ -50,7 +50,7 @@ function Education() {
   const handleShow = (edu) => setSelectedEdu(edu);
 
   return (
-    <section className="experience-section" id="education">
+    <section className="education-section" id="education">
       <Container>
         <h2 className="section-title mb-4">
           My <span className="text-warning">Education</span>

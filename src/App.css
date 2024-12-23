@@ -6,6 +6,7 @@ body {
   color: white;
 }
 
+/* Container & Layout */
 .container {
   max-width: 1140px;
   width: 100%;
@@ -16,9 +17,12 @@ body {
 }
 
 .app-wrapper {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
+/* Card Styles */
 .card-image-wrapper {
   width: 100%;
   height: 200px;
@@ -37,6 +41,7 @@ body {
   transition: transform 0.3s ease;
 }
 
+/* Scroll Behavior */
 .html {
   scroll-behavior: smooth;
 }
@@ -45,12 +50,14 @@ body {
   scroll-margin-top: 80px;
 }
 
+/* Section Titles */
 .section-title {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
+/* Navbar */
 .custom-navbar {
   background-color: rgba(11, 15, 21, 0.9) !important;
   backdrop-filter: blur(10px);
@@ -63,6 +70,7 @@ body {
   padding: 0;
 }
 
+/* Profile Section */
 .profile-section {
   padding-top: 120px;
   padding-bottom: 80px;
@@ -88,8 +96,97 @@ body {
   transition: transform 0.3s ease;
 }
 
+/* About Section */
+.about-section {
+  padding: 80px 0;
+  background-color: #0B0F15;
+  scroll-margin-top: 20px;
+}
+
+.about-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text-wrapper {
+  max-width: 90%;
+}
+
+.about-text-wrapper p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.about-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-stack {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-stack-item {
+  position: absolute;
+  width: 85%;
+  height: 250px;
+  transition: all 0.3s ease;
+}
+
+.image-stack-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.image-stack-item-top {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: rotate(-3deg);
+}
+
+.image-stack-item-bottom {
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  transform: rotate(3deg);
+}
+
+.image-caption {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #FFD700;
+  color: #000;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.image-stack-item:hover {
+  transform: rotate(0) scale(1.02);
+  z-index: 3;
+}
+
+.image-stack-item:hover .image-caption {
+  opacity: 1;
+  bottom: -30px;
+}
+
+/* Skills Section */
 .skills-section {
-  padding: 120px 0 80px;
+  padding: 150px 0 0;
   background-color: #0B0F15;
   scroll-margin-top: -50px;
 }
@@ -101,7 +198,6 @@ body {
   color: white;
   transition: all 0.3s ease;
 }
-
 
 .skills-section .custom-card:hover {
   transform: translateY(-5px);
@@ -128,6 +224,7 @@ body {
   color: #000;
 }
 
+/* Hover Effects */
 .hover-card {
   transition: transform 0.3s ease;
 }
@@ -136,6 +233,15 @@ body {
   transform: translateY(-5px);
 }
 
+.hover-grow {
+  transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.05);
+}
+
+/* Tech Icons */
 .tech-icon-wrapper {
   width: 48px;
   height: 48px;
@@ -166,17 +272,19 @@ body {
 .tech-icon-wrapper:hover .tech-icon.color {
   opacity: 1;
 }
+/* Education Section */
+.education-section {
+  padding: 80px 0;
+  background-color: #0B0F15;
+}
 
+/* Experience Section */
 .experience-section {
   padding: 80px 0;
   background-color: #0B0F15;
 }
 
-.section-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
+/* Cards */
 .custom-card {
   background-color: #0D1117 !important;
   border: none;
@@ -199,6 +307,7 @@ body {
   padding: 1.5rem;
 }
 
+/* Buttons */
 .btn-warning {
   background-color: #FFD700;
   border-color: #FFD700;
@@ -211,6 +320,7 @@ body {
   color: #000;
 }
 
+/* Navigation */
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255,255,255,.7);
 }
@@ -231,11 +341,7 @@ body {
   transition: color 0.3s ease;
 }
 
-
-.custom-navbar .container {
-  max-width: 1140px;
-}
-
+/* Social Icons */
 .social-icon-wrapper {
   width: 48px;
   height: 48px;
@@ -246,7 +352,7 @@ body {
 }
 
 .social-link {
-  transition: transform 0.3 ease;
+  transition: transform 0.3s ease;
   display: inline-block;
 }
 
@@ -264,14 +370,23 @@ body {
   opacity: 1;
 }
 
+/* Footer */
+.footer {
+  background-color: #0D1117;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 1rem 0;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
 
+/* Media Queries */
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .container {
     max-width: 720px;
   }
@@ -282,6 +397,23 @@ body {
   
   .navbar-nav .nav-link {
     padding: 0.5rem 0 !important;
+  }
+
+  .main-image-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .about-content {
+    margin-bottom: 2rem;
+  }
+  
+  .about-text-wrapper {
+    max-width: 100%;
+  }
+  
+  .about-image-container {
+    min-height: 380px;
+    margin-top: 1rem;
   }
 }
 
@@ -327,10 +459,25 @@ body {
     margin: 0 auto;
   }
 
+  .about-section {
+    padding: 40px 0;
+  }
+  
+  .about-text-wrapper p {
+    font-size: 1rem;
+  }
+
+  .about-image-container {
+    min-height: 340px;
+  }
+
+  .image-stack-item {
+    height: 220px;
+  }
+
   .custom-card .card-body {
     padding: 1rem;
   }
-
 
   .mobile-modal .modal-dialog {
     margin: 0.5rem;
@@ -384,7 +531,18 @@ body {
     height: 150px;
     padding: 0.75rem;
   }
+
   .custom-card .card-body {
     padding: 1rem;
+  }
+  
+  .about-image-container {
+    min-height: 300px;
+  }
+
+  .image-stack-item {
+    position: relative;
+    height: 180px;
+    width: 90%;
   }
 }

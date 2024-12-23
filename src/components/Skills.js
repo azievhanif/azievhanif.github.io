@@ -47,16 +47,16 @@ function Skills() {
       description: "Version control and collaboration"
     },
     {
-      name: "React",
-      icon: "https://skillicons.dev/icons?i=react&theme=dark",
-      level: "Intermediate",
-      description: "Component lifecycle, hooks, and state management"
-    },
-    {
       name: "Python",
       icon: "https://skillicons.dev/icons?i=python&theme=dark",
       level: "Beginner",
       description: "Data processing, automation, and scripting"
+    },
+    {
+      name: "React",
+      icon: "https://skillicons.dev/icons?i=react&theme=dark",
+      level: "Intermediate",
+      description: "Component lifecycle, hooks, and state management"
     },
     {
       name: "NodeJS",
@@ -79,7 +79,7 @@ function Skills() {
   ];
 
   return (
-    <section className="skills-section py-6" id="skills">
+    <section className="skills-section" id="skills">
       <Container>
         <h2 className="section-title mb-4">
           My <span className="text-warning">Skills</span>
