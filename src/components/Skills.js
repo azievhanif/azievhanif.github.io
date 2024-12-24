@@ -59,13 +59,13 @@ function Skills() {
       description: "Component lifecycle, hooks, and state management"
     },
     {
-      name: "NodeJS",
+      name: "Node.js",
       icon: "https://skillicons.dev/icons?i=nodejs&theme=dark",
       level: "Intermediate",
       description: "Server-side JavaScript and API development"
     },
     {
-      name: "Express",
+      name: "Express.js",
       icon: "https://skillicons.dev/icons?i=express&theme=dark",
       level: "Intermediate",
       description: "RESTful APIs and middleware implementation"
