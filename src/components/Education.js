@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Card, Modal } from "react-bootstrap";
-import { ChevronRight } from "lucide-react";
+import { Container, Modal } from "react-bootstrap";
+import { GraduationCap, Clock, ChevronRight } from "lucide-react";
 
 function Education() {
   const [selectedEdu, setSelectedEdu] = useState(null);
@@ -44,47 +44,57 @@ function Education() {
   return (
     <section className="education-section" id="education">
       <Container>
-        <h2 className="section-title mb-4">
+        <h2 className="section-title text-center mb-4">
           My <span className="text-warning">Education</span>
         </h2>
-        <p className="text-secondary mb-5">
+        <p className="text-secondary text-center mb-5">
           My learning journey that's built up my knowledge and skills in
           Information Technology.
         </p>
 
-        <Row className="g-4">
+        <div className="timeline-wrapper">
           {education.map((edu, index) => (
-            <Col lg={4} md={6} sm={12} className="mb-4" key={index}>
-              <Card
-                className="custom-card h-100"
+            <div
+              key={index}
+              className={`timeline-item ${index % 2 === 0 ? "left" : "right"}`}
+            >
+              <div className="timeline-badge bg-warning">
+                <GraduationCap size={20} className="text-dark" />
+              </div>
+
+              <div
+                className="timeline-content p-4 rounded-3 position-relative"
                 onClick={() => handleShow(edu)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="card-image-wrapper">
-                  <Card.Img
-                    variant="top"
+                <div className="mb-3">
+                  <div className="d-flex align-items-center gap-2 text-secondary mb-2">
+                    <Clock size={16} />
+                    <small>{edu.period}</small>
+                  </div>
+                  <h3 className="text-warning mb-2 fs-4">{edu.school}</h3>
+                  <h5 className="mb-3">{edu.degree}</h5>
+                </div>
+
+                <div className="timeline-image mb-3">
+                  <img
                     src={edu.image}
                     alt={edu.school}
-                    className="card-image"
+                    className="img-fluid rounded-3"
+                    style={{ maxHeight: "100px", objectFit: "contain" }}
                   />
                 </div>
-                <Card.Body>
-                  <p className="text-secondary mb-2">{edu.period}</p>
-                  <h3 className="text-warning mb-2 fs-5">{edu.school}</h3>
-                  <h5 className="mb-3 fs-6">{edu.degree}</h5>
-                  <p className="text-secondary">{edu.description}</p>
-                  <div
-                    className="d-flex align-items-center text-warning mt-3"
-                    style={{ fontSize: "0.9rem" }}
-                  >
-                    <span>View details</span>
-                    <ChevronRight size={16} style={{ marginLeft: "4px" }} />
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
+
+                <p className="text-secondary mb-4">{edu.description}</p>
+
+                <div className="d-flex align-items-center text-warning view-details">
+                  <span className="me-2">View details</span>
+                  <ChevronRight size={16} />
+                </div>
+              </div>
+            </div>
           ))}
-        </Row>
+        </div>
       </Container>
 
       <Modal
