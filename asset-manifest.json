@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f47601a.css",
-    "main.js": "/static/js/main.c712a72a.js",
-    "static/media/bookgedebooks.png": "/static/media/bookgedebooks.0e6285c744502c1eeea5.png",
-    "static/media/hiking.jpeg": "/static/media/hiking.6f891e8480db49733c5f.jpeg",
+    "main.css": "/static/css/main.87e600e8.css",
+    "main.js": "/static/js/main.0ca1e461.js",
+    "static/media/hiking.jpeg": "/static/media/hiking.a3ad11388521a9fa71d8.jpeg",
+    "static/media/bookgedebooks.jpeg": "/static/media/bookgedebooks.6478c556f7e63153466e.jpeg",
     "static/media/smanda.png": "/static/media/smanda.50c386eddc62c62bbf35.png",
     "static/media/profile.jpeg": "/static/media/profile.9646fc5b2340d0f66561.jpeg",
     "static/media/unesa.png": "/static/media/unesa.c9d3f11ccadfa6587ca4.png",
     "static/media/Aziev Hanif Bahtiar-resume copy.pdf": "/static/media/Aziev Hanif Bahtiar-resume copy.e89fbd3c036792bcb657.pdf",
-    "static/media/running.jpeg": "/static/media/running.f6fd1f8ab665b2821f18.jpeg",
+    "static/media/running.jpeg": "/static/media/running.dea15a561a49957fcec7.jpeg",
     "static/media/titian.png": "/static/media/titian.59ba54e70f2a64bbf32a.png",
     "static/media/celerates.png": "/static/media/celerates.11d65aca7a8608cd14f5.png",
     "static/media/aacorp.png": "/static/media/aacorp.cc789b21f26207fc3212.png",
     "index.html": "/index.html",
-    "main.3f47601a.css.map": "/static/css/main.3f47601a.css.map",
-    "main.c712a72a.js.map": "/static/js/main.c712a72a.js.map"
+    "main.87e600e8.css.map": "/static/css/main.87e600e8.css.map",
+    "main.0ca1e461.js.map": "/static/js/main.0ca1e461.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f47601a.css",
-    "static/js/main.c712a72a.js"
+    "static/css/main.87e600e8.css",
+    "static/js/main.0ca1e461.js"
   ]
 }
