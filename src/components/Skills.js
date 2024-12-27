@@ -20,6 +20,10 @@ const Skills = () => {
       icon: "https://skillicons.dev/icons?i=bootstrap&theme=dark",
     },
     {
+      name: "Tailwind",
+      icon: "https://skillicons.dev/icons?i=tailwind&theme=dark",
+    },
+    {
       name: "Git",
       icon: "https://skillicons.dev/icons?i=git&theme=dark",
     },
