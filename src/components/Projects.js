@@ -66,6 +66,36 @@ function Projects() {
         github: "https://github.com/azievhanif/digital-library-frontend",
       },
     },
+    {
+      title: "Coming soon...",
+      description:
+        "Working on something cool—still figuring things out, but stay tuned! Big things are coming your way. ",
+      image: require("../images/projects/developing.jpeg"),
+      period: "Still developing",
+      category: "TBD",
+      technologies: [
+        {
+          name: "HTML",
+          icon: "https://skillicons.dev/icons?i=html&theme=dark",
+        },
+        {
+          name: "CSS",
+          icon: "https://skillicons.dev/icons?i=css&theme=dark",
+        },
+        {
+          name: "JavaScript",
+          icon: "https://skillicons.dev/icons?i=javascript&theme=dark",
+        },
+      ],
+      features: [
+        "Exciting features in development.",
+        "Stay tuned for more updates.",
+      ],
+      links: {
+        demo: "",
+        github: "",
+      },
+    },
   ];
 
   const handleClose = () => setSelectedProject(null);
