@@ -10,12 +10,9 @@ function Navigation() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="custom-navbar">
       <Container>
-        <Navbar.Brand href="#" className="brand" onClick={() => scrollToSection('home')}>
-          Zy<span className="text-warning">vv</span>
-        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto nav-links">
+        <Navbar.Collapse id="basic-navbar-nav" className="navbar-collapse-custom">
+          <Nav className="nav-links">
             <Nav.Link onClick={() => scrollToSection('profile')} className="mx-2">HOME</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('about')} className="mx-2">ABOUT ME</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('skills')} className="mx-2">SKILLS</Nav.Link>

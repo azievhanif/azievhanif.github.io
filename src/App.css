@@ -16,6 +16,13 @@ body {
   margin-left: auto;
 }
 
+.content-container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .app-wrapper {
   display: flex;
   flex-direction: column;
@@ -89,10 +96,17 @@ body {
   padding: 1rem 0;
 }
 
-.brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 0;
+.custom-navbar .container {
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-collapse-custom {
+  display: flex;
+  justify-content: center;
 }
 
 /* Profile Section */
@@ -902,19 +916,38 @@ body {
   .container {
     max-width: 960px;
   }
+
+  .content-container {
+    max-width: 960px;
+  }
 }
 
 @media (max-width: 991px) {
   .container {
     max-width: 720px;
   }
+
+  .content-container {
+    max-width: 960px;
+  }
+  
+  .navbar-collapse-custom {
+    justify-content: flex-start;
+  }
   
   .nav-links {
-    padding: 1rem 0;
+    width: 100%;
+    padding-top: 1rem;
   }
   
   .navbar-nav .nav-link {
-    padding: 0.5rem 0 !important;
+    padding: 0.75rem 0 !important;
+    text-align: left;
+  }
+  
+  .custom-navbar .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .main-image-wrapper {
@@ -955,6 +988,10 @@ body {
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+
+  .content-container {
+    max-width: 960px;
   }
 
   .card-image-wrapper {
@@ -1100,6 +1137,10 @@ body {
   .container {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+  }
+
+  .content-container {
+    max-width: 960px;
   }
 
   .profile-image-wrapper {
