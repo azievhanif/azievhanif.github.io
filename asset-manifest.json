@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.dd06d79d.css",
-    "main.js": "/static/js/main.b2063e65.js",
+    "main.js": "/static/js/main.502de862.js",
+    "static/media/profile.jpeg": "/static/media/profile.51cdb55f9ed1fea1835a.jpeg",
     "static/media/hiking.jpeg": "/static/media/hiking.a3ad11388521a9fa71d8.jpeg",
     "static/media/bookgedebooks.jpeg": "/static/media/bookgedebooks.6478c556f7e63153466e.jpeg",
     "static/media/smanda.png": "/static/media/smanda.50c386eddc62c62bbf35.png",
-    "static/media/profile.jpeg": "/static/media/profile.9646fc5b2340d0f66561.jpeg",
     "static/media/unesa.png": "/static/media/unesa.c9d3f11ccadfa6587ca4.png",
     "static/media/Aziev Hanif Bahtiar-resume copy.pdf": "/static/media/Aziev Hanif Bahtiar-resume copy.85b0225d8dcaf2781f3e.pdf",
     "static/media/running.jpeg": "/static/media/running.dea15a561a49957fcec7.jpeg",
@@ -15,10 +15,10 @@
     "static/media/aacorp.png": "/static/media/aacorp.cc789b21f26207fc3212.png",
     "index.html": "/index.html",
     "main.dd06d79d.css.map": "/static/css/main.dd06d79d.css.map",
-    "main.b2063e65.js.map": "/static/js/main.b2063e65.js.map"
+    "main.502de862.js.map": "/static/js/main.502de862.js.map"
   },
   "entrypoints": [
     "static/css/main.dd06d79d.css",
-    "static/js/main.b2063e65.js"
+    "static/js/main.502de862.js"
   ]
 }
