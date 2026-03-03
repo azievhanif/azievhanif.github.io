@@ -12,7 +12,7 @@ function Education() {
       period: "2018 - 2021",
       description:
         "Completed high school education with a focus on science and mathematics.",
-      image: require("../images/education/smanda.png"),
+      image: require("../images/education/smanda.webp"),
       details: {
         courses: ["Advanced Mathematics", "Physics", "Chemistry", "Biology"],
         activities: ["Futsal"],
@@ -24,7 +24,7 @@ function Education() {
       period: "2021 - Present",
       description:
         "Currently pursuing a bachelor's degree in Information Systems with focus on IT management and governance.",
-      image: require("../images/education/unesa.png"),
+      image: require("../images/education/unesa.webp"),
       details: {
         courses: [
           "IT Service Management ",

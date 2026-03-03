@@ -18,7 +18,7 @@ function Projects() {
       title: "Bookgedebooks",
       description:
         "Bookgedebooks is a web-based digital library application designed to streamline modern library data management. ",
-      image: require("../images/projects/bookgedebooks.jpeg"),
+      image: require("../images/projects/bookgedebooks.webp"),
       period: "2024",
       category: "Web Development",
       technologies: [
@@ -70,7 +70,7 @@ function Projects() {
       title: "Coming soon...",
       description:
         "Working on something cool—still figuring things out, but stay tuned! Big things are coming your way. ",
-      image: require("../images/projects/developing.jpeg"),
+      image: require("../images/projects/developing.webp"),
       period: "Still developing",
       category: "TBD",
       technologies: [

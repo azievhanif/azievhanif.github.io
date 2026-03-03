@@ -55,7 +55,7 @@ function AboutMe() {
               <div className="image-stack">
                 <div className="image-stack-item image-stack-item-top">
                   <img
-                    src={require("../images/about/hiking.jpeg")}
+                    src={require("../images/about/hiking.webp")}
                     alt="Hiking"
                     className="img-fluid rounded-4"
                   />
@@ -63,7 +63,7 @@ function AboutMe() {
                 </div>
                 <div className="image-stack-item image-stack-item-bottom">
                   <img
-                    src={require("../images/about/running.jpeg")}
+                    src={require("../images/about/running.webp")}
                     alt="Morning Run"
                     className="img-fluid rounded-4"
                   />

@@ -12,7 +12,7 @@ function Experience() {
       company: "A+A&Corp",
       description:
         "I conducted thorough testing of the mobile app and website to ensure they met all required functionalities and performed as expected.",
-      image: require("../images/experiences/aacorp.png"),
+      image: require("../images/experiences/aacorp.webp"),
       details: {
         responsibilities: [
           "Developed and executed test cases for mobile and web applications",
@@ -34,7 +34,7 @@ function Experience() {
       company: "Titian Services Indonesia",
       description:
         "As a part of the IT staff, I took responsibility for ensuring the stability and smooth operation of the company's computer systems and networks.",
-      image: require("../images/experiences/titian.png"),
+      image: require("../images/experiences/titian.webp"),
       details: {
         responsibilities: [
           "Managed and maintained IT infrastructure",
@@ -61,7 +61,7 @@ function Experience() {
       company: "Celerates",
       description:
         "Engaged as a mentee in the Celerates Acceleration Mastery Program (CAMP): Full Stack, focusing on both front-end and back-end development.",
-      image: require("../images/experiences/celerates.png"),
+      image: require("../images/experiences/celerates.webp"),
       details: {
         responsibilities: [
           "Developing full-stack web applications",

@@ -30,7 +30,7 @@ function Profile() {
           <Col md={6}>
             <div className="profile-image-wrapper">
               <img
-                src={require("../images/profile/profile.jpeg")}
+                src={require("../images/profile/profile.webp")}
                 alt="Profile"
                 className="img-fluid rounded-4 profile-image"
               />
