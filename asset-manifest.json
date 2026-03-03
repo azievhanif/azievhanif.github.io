@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.dd06d79d.css",
-    "main.js": "/static/js/main.502de862.js",
-    "static/media/profile.jpeg": "/static/media/profile.51cdb55f9ed1fea1835a.jpeg",
-    "static/media/hiking.jpeg": "/static/media/hiking.a3ad11388521a9fa71d8.jpeg",
-    "static/media/bookgedebooks.jpeg": "/static/media/bookgedebooks.6478c556f7e63153466e.jpeg",
-    "static/media/smanda.png": "/static/media/smanda.50c386eddc62c62bbf35.png",
-    "static/media/unesa.png": "/static/media/unesa.c9d3f11ccadfa6587ca4.png",
+    "main.js": "/static/js/main.957dc247.js",
+    "static/media/profile.webp": "/static/media/profile.f8d7e1681fb84dfaa78b.webp",
+    "static/media/hiking.webp": "/static/media/hiking.f3cf1b26a64fa8ade1f4.webp",
     "static/media/Aziev Hanif Bahtiar-resume copy.pdf": "/static/media/Aziev Hanif Bahtiar-resume copy.85b0225d8dcaf2781f3e.pdf",
-    "static/media/running.jpeg": "/static/media/running.dea15a561a49957fcec7.jpeg",
-    "static/media/titian.png": "/static/media/titian.59ba54e70f2a64bbf32a.png",
-    "static/media/developing.jpeg": "/static/media/developing.28b3be389d8b3b2871dc.jpeg",
-    "static/media/celerates.png": "/static/media/celerates.11d65aca7a8608cd14f5.png",
-    "static/media/aacorp.png": "/static/media/aacorp.cc789b21f26207fc3212.png",
+    "static/media/bookgedebooks.webp": "/static/media/bookgedebooks.da10cf2e9c5666918f11.webp",
+    "static/media/running.webp": "/static/media/running.dacf510310c7bf3710b0.webp",
+    "static/media/unesa.webp": "/static/media/unesa.14fe2e69ccbbfda980ba.webp",
+    "static/media/developing.webp": "/static/media/developing.2c82e452882f60bed73c.webp",
+    "static/media/titian.webp": "/static/media/titian.2cf2f3406c1a992859dd.webp",
+    "static/media/smanda.webp": "/static/media/smanda.491df2b35c1176381ce7.webp",
+    "static/media/celerates.webp": "/static/media/celerates.81b336ddaba324aa8da4.webp",
+    "static/media/aacorp.webp": "/static/media/aacorp.49e8fac0401bf72504e5.webp",
     "index.html": "/index.html",
     "main.dd06d79d.css.map": "/static/css/main.dd06d79d.css.map",
-    "main.502de862.js.map": "/static/js/main.502de862.js.map"
+    "main.957dc247.js.map": "/static/js/main.957dc247.js.map"
   },
   "entrypoints": [
     "static/css/main.dd06d79d.css",
-    "static/js/main.502de862.js"
+    "static/js/main.957dc247.js"
   ]
 }
