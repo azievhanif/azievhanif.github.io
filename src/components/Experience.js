@@ -80,6 +80,34 @@ function Experience() {
         ],
       },
     },
+    {
+      period: "July 2025 - February 2026",
+      title: "Cybersecurity",
+      company: "Dinas Komunikasi dan Informatika Kota Mojokerto",
+      description:
+        "Completed a cybersecurity internship at the Cryptography and Information Security Division. Conducted a cyber resilience readiness assessment using the NIST Cybersecurity Framework (CSF) 2.0 as part of my undergraduate thesis.",
+      image: require("../images/experiences/kominfo.webp"),
+      details: {
+        responsibilities: [
+          "Supported cybersecurity governance and information security activities.",
+          "Conducted cyber resilience assessments using the NIST Cybersecurity Framework (CSF) 2.0.",
+          "Collected and analyzed data through interviews, questionnaires, and document reviews.",
+          "Identified cybersecurity gaps and proposed recommendations for improvement.",
+        ],
+        technologies: [
+          "NIST CSF 2.0",
+          "Cybersecurity",
+          "IT Governance",
+          "Cyber Resilience",
+          "Risk Assessment",
+        ],
+        achievements: [
+          "Completed a comprehensive cyber resilience readiness assessment.",
+          "Developed Current and Target Profiles based on NIST CSF 2.0.",
+          "Provided recommendations to strengthen cybersecurity governance.",
+        ],
+      },
+    },
   ];
 
   const handleClose = () => setSelectedExp(null);
