@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd06d79d.css",
-    "main.js": "/static/js/main.957dc247.js",
+    "main.js": "/static/js/main.c1bc53e0.js",
     "static/media/profile.webp": "/static/media/profile.f8d7e1681fb84dfaa78b.webp",
     "static/media/hiking.webp": "/static/media/hiking.f3cf1b26a64fa8ade1f4.webp",
     "static/media/Aziev Hanif Bahtiar-resume copy.pdf": "/static/media/Aziev Hanif Bahtiar-resume copy.85b0225d8dcaf2781f3e.pdf",
@@ -9,16 +9,17 @@
     "static/media/running.webp": "/static/media/running.dacf510310c7bf3710b0.webp",
     "static/media/unesa.webp": "/static/media/unesa.14fe2e69ccbbfda980ba.webp",
     "static/media/developing.webp": "/static/media/developing.2c82e452882f60bed73c.webp",
+    "static/media/kominfo.webp": "/static/media/kominfo.87e574ffd8772ba485ab.webp",
     "static/media/titian.webp": "/static/media/titian.2cf2f3406c1a992859dd.webp",
     "static/media/smanda.webp": "/static/media/smanda.491df2b35c1176381ce7.webp",
     "static/media/celerates.webp": "/static/media/celerates.81b336ddaba324aa8da4.webp",
     "static/media/aacorp.webp": "/static/media/aacorp.49e8fac0401bf72504e5.webp",
     "index.html": "/index.html",
     "main.dd06d79d.css.map": "/static/css/main.dd06d79d.css.map",
-    "main.957dc247.js.map": "/static/js/main.957dc247.js.map"
+    "main.c1bc53e0.js.map": "/static/js/main.c1bc53e0.js.map"
   },
   "entrypoints": [
     "static/css/main.dd06d79d.css",
-    "static/js/main.957dc247.js"
+    "static/js/main.c1bc53e0.js"
   ]
 }
